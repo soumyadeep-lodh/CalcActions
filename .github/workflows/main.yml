@@ -7,7 +7,7 @@ name: CI
 on:
   #when there is a push to the master
   push:
-    branches: [ master ]
+    branches: [ main ]
   #when there is a pull to the master
   # pull_request:
   #   branches: [ master ]
