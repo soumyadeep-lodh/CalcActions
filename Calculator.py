@@ -22,7 +22,7 @@ def lambda_handler(event, context):
         
     return {
         'statusCode': 200,
-        'body': json.dumps(calculate(first_num, second_num, operator)),
+        'body': json.dumps({"calac":calculate(first_num, second_num, operator), "event":event}),
          "output": response.json()
     }
 
