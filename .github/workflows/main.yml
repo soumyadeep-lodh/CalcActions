@@ -68,6 +68,6 @@ jobs:
       uses: appleboy/lambda-action@v0.0.4
       with:
             #name of my AWS Lambda Function
-            function_name: CalcActions
+            function_name: lambda_handler
             #contains all the files in my github repository
             zip_file: CalcZip.zip
